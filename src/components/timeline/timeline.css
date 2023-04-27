@@ -1,0 +1,59 @@
+
+
+.timeline {
+  background: var(--color-bg-variant);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 2rem;
+  user-select: none;
+}
+
+
+
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.vertical-timeline-element-date {
+  font-weight: bold;
+  color: #ffff;
+}
+
+
+.vertical-timeline-element-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--color-primary);
+}
+
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4db5ff;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.workButton {
+  background-color: #4db5ff;
+}
+
+.schoolButton {
+  background-color: #f9c74f;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #06D6A0;
+  border: 1px solid #06D6A0;
+}
